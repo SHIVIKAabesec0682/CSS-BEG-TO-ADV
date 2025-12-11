@@ -87,4 +87,55 @@
  <input type="radio" name="gender" value="female"> Female<br>
  <input type="checkbox" name="subscribe"> Subscribe
 </form>
+<h1>QUESTION 11</h1>
+<form>
+ <fieldset>
+   <legend>Personal Info</legend>
+   <label>Name:</label><input type="text"><br>
+   <label>Email:</label><input type="email">
+ </fieldset>
+</form>
+
+<h1>QUESTION 12</h1>
+<select name="country">
+ <option value="india">India</option>
+ <option value="usa">USA</option>
+ <option value="uk">UK</option>
+</select>
+
+<h1>QUESTION 13</h1>
+<textarea name="message" rows="4" cols="30"></textarea>
+<br>
+<button type="submit">Send</button>
+<button type="reset">Clear</button>
+<h1>QUESTION 14</h1>
+<form 
+    action="/submit-form" 
+    method="POST" 
+    target="_blank" 
+    autocomplete="on">
+
+    <label>Name:</label>
+    <input type="text" name="username">
+
+    <label>Email:</label>
+    <input type="email" name="email">
+
+    <button type="submit">Submit</button>
+</form>
+<h1>QUESTION 15</h1>
+<form>
+ <input type="text" name="username" required minlength="3">
+ <input type="email" name="email" required>
+</form>
+<h1>QUESTION 16</h1>
+<form>
+ <fieldset>
+   <legend>Login</legend>
+   <label for="user">Username:</label>
+   <input id="user" type="text"><br>
+   <label for="pass">Password:</label>
+   <input id="pass" type="password">
+ </fieldset>
+</form>
 </html>
